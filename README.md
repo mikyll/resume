@@ -21,7 +21,9 @@ Resume PDFs are placed in `output/` and have the follwoing naming convention:
 ## Create New Tag
 
 ```bash
-git tag $(date "+%Y-%m-%d")
-git tag latest
-git push --tags
+git tag --force $(date "+%Y-%m-%d")
+git tag --force latest
+git push --force --tags
+
+# create release associated with latest tag
 ```
