@@ -1,3 +1,4 @@
 [submodule "private"]
 	path = private
 	url = git@github.com:mikyll/resume-private.git
+	branch = main
