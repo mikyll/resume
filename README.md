@@ -16,7 +16,13 @@ Michele Righi's resume.
 
 ## Directory Structure
 
-Resume PDFs are placed in `output/` and have the follwoing naming convention:
+Resume PDFs are placed in `output/` and have the following naming convention:
+
+```
+output/
+  michele_righi_resume.pdf          # English
+  michele_righi_resume.${lang}.pdf  # other languages, e.g. .it
+```
 
 ## Create New Tag
 
