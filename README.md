@@ -14,22 +14,17 @@ Michele Righi's resume.
 - [michele_righi_resume.it.pdf](https://github.com/mikyll/resume/releases/download/latest/michele_righi_resume.it.pdf)
 -->
 
-## Directory Structure
+## Releases
 
-Resume PDFs are placed in `output/` and have the following naming convention:
+The PDFs are built by a workflow in the private repository, which compiles every
+language and publishes the files as assets of two releases:
+
+- `latest`, which the links above point to
+- one tagged with the build date (e.g. `2026-09-14`), kept as history
+
+Assets follow this naming convention:
 
 ```
-output/
-  michele_righi_resume.pdf          # English
-  michele_righi_resume.${lang}.pdf  # other languages, e.g. .it
-```
-
-## Create New Tag
-
-```bash
-git tag --force $(date "+%Y-%m-%d")
-git tag --force latest
-git push --force --tags
-
-# create release associated with latest tag
+michele_righi_resume.pdf          # English
+michele_righi_resume.${lang}.pdf  # other languages, e.g. .it
 ```
