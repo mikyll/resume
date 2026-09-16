@@ -1,13 +1,13 @@
 # resume
 
-Michele Righi's resume.
+Il curriculum di Michele Righi.
 
-[🇮🇹 Italiano](README.it.md)
+[🇬🇧 English](README.md)
 
 ## Download
 
 - [🇬🇧 michele_righi_resume.pdf](https://github.com/mikyll/resume/releases/download/latest/michele_righi_resume.pdf)
 - [🇮🇹 michele_righi_resume.it.pdf](https://github.com/mikyll/resume/releases/download/latest/michele_righi_resume.it.pdf)
 
-Both links always point to the most recent version. Older ones are under
-[releases](https://github.com/mikyll/resume/releases).
+Entrambi i link puntano sempre alla versione più recente. Le precedenti sono
+nelle [release](https://github.com/mikyll/resume/releases).
